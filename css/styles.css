@@ -1,0 +1,231 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --primary-white-color: #ffffff;
+    --secondary-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+}
+
+/* {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Haeder */
+.logo {
+    color: #000000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo.ftr{
+    color: var(--primary-white-color);
+}
+
+.logo-web {
+   color: var(--accent-color);
+}
+
+/* Navigation */
+.site-nav-list-element {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.site-nav-list-element:hover,
+.site-nav-list-element:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.auth-nav-list-element{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.auth-nav-list-element:hover,
+.auth-nav-list-element:focus   {
+    color: var(--accent-color);
+}
+
+.site-nav-list-element.current-page {
+    color: var(--accent-color)
+}
+
+/*  Hero  */
+.section-hero {
+    background-color: var(--footer-bg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--primary-white-color);
+}
+
+/*  Button  */
+.button{
+    color: var(--title-text-color);
+    background-color: var(--secondary-color);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 32px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.button.btn-hero {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+}
+
+.button.btn-hero:hover,
+.button.btn-hero:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+}
+
+.button.btn-radio {
+    color: var(--title-text-color);
+    font-weight: 500;
+    padding: 6px 22px;
+    margin: 0 4px;
+}
+
+.button.btn-radio:hover,
+.button.btn-radio:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 500;
+    padding: 6px 22px;
+    margin: 0 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Benefits */
+.h-delete {
+    display: none;
+}
+
+.benefits-item h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.benefits-item p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+/* Чем мы занимаемся */
+.title-occupation {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.item-occupation {
+    list-style: none;
+}
+
+/* Наша команда */
+.section-people {
+    background-color: var(--secondary-color);
+    padding: 0;
+}
+
+.title-people {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.item-people h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item-people p {
+    font-size: 16px;
+    color: var(--primary-text-color);
+}
+
+/* Foooter */
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.address{
+    color: var(--primary-white-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mail,
+.tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.address:hover,
+.address:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color)
+}
+
+
+/* Page Portfolio */
+.item-project h2{
+    font-size: 18px;
+}
+
+.item-project p {
+    font-size: 16px;
+    color: var(--primary-text-color);
+}
