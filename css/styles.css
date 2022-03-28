@@ -21,7 +21,7 @@ a {
   margin-right: 15px;
   width: 1170px;
   margin: 0 auto;
-  outline: 2px solid tomato;*/
+  /*outline: 2px solid tomato;*/
 }
 
 .list {
@@ -239,8 +239,8 @@ ul {
   margin-left: 30px;
 }
 
-.occupation-list img{
-    display: block;
+.occupation-list img {
+  display: block;
 }
 
 /* Наша команда */
